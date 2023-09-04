@@ -1,7 +1,7 @@
 import React from 'react';
 import picture from "../assets/headshot.png";
 import { Link } from 'react-scroll'; // Import the Link component from 'react-scroll'
-import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+
 
 const Home = () => {
   return (
@@ -27,7 +27,7 @@ const Home = () => {
             >
               Portfolio
               <span className="group-hover:rotate-90 duration-300">
-                <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
+
               </span>
             </Link>
           </div>
